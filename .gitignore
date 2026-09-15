@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+*.env
+
+# Data
+data/raw/
+data/processed/
+
+# Logs
+logs/
+
+# Airflow
+airflow/logs/
+airflow/.env
+
+# Spark
+spark-warehouse/
+
+# dbt
+dbt_project/target/
+dbt_project/logs/
+dbt_project/dbt_packages/
+
+# AWS
+.aws/
